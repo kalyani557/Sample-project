@@ -1,126 +1,68 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html><html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sample Project - Colorful Homepage</title>
-    
-    <!-- Embedded CSS -->
-    <style>
-        /* Reset */
-        * { margin: 0; padding: 0; box-sizing: border-box; font-family: Arial, sans-serif; }
-
-        /* Body */
-        body {
-            background: linear-gradient(to right, #ff9a9e, #fad0c4);
-            color: #333;
-            line-height: 1.6;
-        }
-
-        /* Header */
-        header {
-            text-align: center;
-            padding: 50px 20px;
-            background: linear-gradient(135deg, #a18cd1, #fbc2eb);
-            color: white;
-            border-bottom: 4px solid #fff;
-        }
-        header h1 { font-size: 2.8rem; margin-bottom: 10px; }
-        header p { font-size: 1.2rem; }
-
-        /* Navigation */
-        nav {
-            background: #ffecd2;
-            padding: 10px 0;
-        }
-        nav ul {
-            display: flex;
-            justify-content: center;
-            list-style: none;
-        }
-        nav ul li { margin: 0 20px; }
-        nav ul li a {
-            text-decoration: none;
-            font-weight: bold;
-            color: #333;
-            transition: color 0.3s ease;
-        }
-        nav ul li a:hover { color: #ff6f91; }
-
-        /* Main content */
-        main { padding: 40px 20px; text-align: center; }
-        .intro { margin-bottom: 50px; }
-        .features h2 { margin-bottom: 20px; color: #ff6f91; }
-        .cards {
-            display: flex;
-            justify-content: center;
-            gap: 20px;
-            flex-wrap: wrap;
-        }
-        .card {
-            background: white;
-            padding: 20px;
-            border-radius: 15px;
-            box-shadow: 0 8px 20px rgba(0,0,0,0.2);
-            width: 250px;
-            transition: transform 0.3s ease;
-        }
-        .card:hover { transform: translateY(-10px); }
-        .card h3 { color: #ff6f91; margin-bottom: 10px; }
-
-        /* Footer */
-        footer {
-            background: #ff9a9e;
-            text-align: center;
-            padding: 20px;
-            color: white;
-            margin-top: 50px;
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Professional Portfolio</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; font-family: Arial, sans-serif; }
+    body { background: #f5f7fa; color: #333; }
+    header { background: #0a2540; color: #fff; padding: 40px 20px; text-align: center; }
+    header h1 { font-size: 36px; }
+    header p { margin-top: 10px; font-size: 18px; }
+    nav { background: #102a43; padding: 10px; text-align: center; }
+    nav a { color: #fff; margin: 0 15px; text-decoration: none; font-weight: bold; }
+    nav a:hover { text-decoration: underline; }
+    section { padding: 60px 20px; max-width: 1000px; margin: auto; }
+    h2 { color: #0a2540; margin-bottom: 20px; }
+    .skills span { display: inline-block; background: #e1e8f0; padding: 8px 12px; margin: 5px; border-radius: 5px; }
+    .projects .card { background: #fff; padding: 20px; margin-bottom: 20px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+    footer { background: #0a2540; color: #fff; text-align: center; padding: 20px; }
+    button { background: #0a2540; color: #fff; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer; }
+    button:hover { background: #163a5f; }
+  </style>
 </head>
-<body>
-
-    <header>
-        <h1>Welcome to My Website</h1>
-        <p>Built with Flask, HTML & CSS</p>
-    </header>
-
-    <nav>
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Contact</a></li>
-        </ul>
-    </nav>
-
-    <main>
-        <section class="intro">
-            <h2>About This Project</h2>
-            <p>This is a beginner-friendly Flask project to learn Python web development and GitHub hosting.</p>
-        </section>
-
-        <section class="features">
-            <h2>Features</h2>
-            <div class="cards">
-                <div class="card">
-                    <h3>Flask Backend</h3>
-                    <p>Learn how to use Flask to serve HTML templates dynamically.</p>
-                </div>
-                <div class="card">
-                    <h3>Colorful Design</h3>
-                    <p>A bright and modern homepage using HTML & CSS.</p>
-                </div>
-                <div class="card">
-                    <h3>Easy to Customize</h3>
-                    <p>Add more pages, forms, and features easily.</p>
-                </div>
-            </div>
-        </section>
-    </main>
-
-    <footer>
-        <p>&copy; 2026 Kalyani Pawar. All rights reserved.</p>
-    </footer>
-
-</body>
+<body><header>
+  <h1>Your Name</h1>
+  <p>Software Developer | Web Designer | Fresher</p>
+</header><nav>
+  <a href="#about">About</a>
+  <a href="#skills">Skills</a>
+  <a href="#projects">Projects</a>
+  <a href="#contact">Contact</a>
+</nav><section id="about">
+  <h2>About Me</h2>
+  <p>
+    I am a passionate developer eager to build professional and user-friendly websites.
+    This portfolio showcases my skills, projects, and contact information.
+  </p>
+</section><section id="skills">
+  <h2>Skills</h2>
+  <div class="skills">
+    <span>HTML</span>
+    <span>CSS</span>
+    <span>JavaScript</span>
+    <span>MySQL</span>
+    <span>Git & GitHub</span>
+  </div>
+</section><section id="projects">
+  <h2>Projects</h2>
+  <div class="projects">
+    <div class="card">
+      <h3>Project 1</h3>
+      <p>Professional website using HTML and CSS.</p>
+    </div>
+    <div class="card">
+      <h3>Project 2</h3>
+      <p>Database project using MySQL.</p>
+    </div>
+  </div>
+</section><section id="contact">
+  <h2>Contact Me</h2>
+  <p>Email: kalyanipawar1441@gmail.com</p>
+  <p>GitHub: github.com/kalyani557</p>
+  <br />
+  <button onclick="alert('Thank you for visiting!')">Say Hello</button>
+</section><footer>
+  <p>© 2026 Your Name | All Rights Reserved</p>
+</footer></body>
 </html>
